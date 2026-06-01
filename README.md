@@ -11,17 +11,23 @@
 
 ### 需要配置的 GitHub Secrets
 
-在仓库页面 `Settings → Secrets and variables → Actions → New repository secret` 添加以下 5 个：
+在仓库页面 `Settings → Secrets and variables → Actions → New repository secret` 添加以下 3 个：
 
 | Secret 名称       | 说明                                                         | 示例              |
 | ----------------- | ------------------------------------------------------------ | ----------------- |
 | `SENDER`          | 发件邮箱账号                                                  | `abc@qq.com`      |
 | `SENDER_PASSWORD` | 发件邮箱的 **SMTP 授权码**（不是登录密码，向邮箱服务商申请） | `abcdefghijklmn`  |
-| `RECEIVER`        | 收件邮箱（可多个，用英文逗号分隔）                            | `me@outlook.com`  |
-| `SMTP_SERVER`     | 发件邮箱的 SMTP 服务器地址                                    | `smtp.qq.com`     |
-| `SMTP_PORT`       | SMTP 端口（465 走 SSL，587 走 STARTTLS）                     | `465`             |
+| `RECEIVER`        | 收件邮箱（可多个，用英文逗号分隔）                            | `me@link.cuhk.edu.hk` |
 
-常见邮箱 SMTP：
+SMTP 服务器/端口默认走 QQ 邮箱（`smtp.qq.com` / `465`），无需配置。
+如果发件邮箱不是 QQ，再额外添加这两个 Secret 覆盖默认值：
+
+| Secret 名称   | 说明                                     | 示例          |
+| ------------- | ---------------------------------------- | ------------- |
+| `SMTP_SERVER` | 发件邮箱的 SMTP 服务器地址（按发件邮箱定）| `smtp.qq.com` |
+| `SMTP_PORT`   | SMTP 端口（465=SSL，587=STARTTLS）       | `465`         |
+
+常见发件邮箱 SMTP（服务器由**发件邮箱**决定，与收件邮箱无关）：
 
 - QQ 邮箱：`smtp.qq.com`，端口 `465`
 - Gmail：`smtp.gmail.com`，端口 `465`（需使用应用专用密码）

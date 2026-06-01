@@ -21,8 +21,9 @@ except ImportError:
 SENDER = os.environ.get("SENDER")
 SENDER_PASSWORD = os.environ.get("SENDER_PASSWORD")
 RECEIVER = os.environ.get("RECEIVER")
-SMTP_SERVER = os.environ.get("SMTP_SERVER")
-SMTP_PORT = int(os.environ.get("SMTP_PORT", "465"))
+# SMTP 服务器/端口不敏感，默认走 QQ 邮箱；如需更换可在 Secrets 里覆盖
+SMTP_SERVER = os.environ.get("SMTP_SERVER") or "smtp.qq.com"
+SMTP_PORT = int(os.environ.get("SMTP_PORT") or "465")
 BEFORE_SHA = os.environ.get("BEFORE_SHA", "")
 AFTER_SHA = os.environ.get("AFTER_SHA", "HEAD")
 FORCE_LATEST = os.environ.get("FORCE_LATEST", "") not in ("", "0", "false", "False")
@@ -120,7 +121,7 @@ def send(subject, html):
 def main():
     missing = [
         k
-        for k in ("SENDER", "SENDER_PASSWORD", "RECEIVER", "SMTP_SERVER")
+        for k in ("SENDER", "SENDER_PASSWORD", "RECEIVER")
         if not os.environ.get(k)
     ]
     if missing:

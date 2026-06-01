@@ -1,6 +1,15 @@
 name: Notify Email on Update
 
 on:
+  # Cursor automation 每天会开一个日报 PR，PR 一创建/更新就发邮件（无需合并）
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+    branches: [main]
+    paths-ignore:
+      - ".github/**"
+      - "README.md"
+      - "scripts/**"
+  # 如果将来内容直接进 main，也照样发
   push:
     branches: [main]
     paths-ignore:
@@ -11,7 +20,7 @@ on:
 
 # 避免并发重复发送
 concurrency:
-  group: notify-email-${{ github.ref }}
+  group: notify-email-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -22,6 +31,7 @@ jobs:
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Setup Python
         uses: actions/setup-python@v6
@@ -38,7 +48,9 @@ jobs:
           RECEIVER: ${{ secrets.RECEIVER }}
           SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          BEFORE_SHA: ${{ github.event.before }}
-          AFTER_SHA: ${{ github.sha }}
+          BEFORE_SHA: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+          AFTER_SHA: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
           FORCE_LATEST: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
         run: python scripts/send_email.py

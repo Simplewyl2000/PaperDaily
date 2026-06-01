@@ -89,10 +89,20 @@ def build_html(files, date_str):
                 f"📄 {os.path.basename(f)}</h2>\n{render_markdown(fh.read())}"
             )
     body = "\n<hr style='margin:24px 0;'/>\n".join(sections)
+
+    pr_url = os.environ.get("PR_URL", "").strip()
+    pr_note = ""
+    if pr_url:
+        pr_note = (
+            f'<p style="background:#f6f8fa;border:1px solid #d0d7de;border-radius:6px;'
+            f'padding:10px 14px;">本次更新来自一个 Pull Request，'
+            f'如需合并到 main 可点此查看：<a href="{pr_url}">{pr_url}</a></p>'
+        )
+
     return (
         '<div style="font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;'
         'max-width:820px;margin:0 auto;color:#24292f;line-height:1.6;">'
-        f"<p>PaperDaily 仓库已更新（{date_str}），本次更新内容如下：</p>\n{body}\n"
+        f"<p>PaperDaily 仓库已更新（{date_str}），本次更新内容如下：</p>\n{pr_note}\n{body}\n"
         '<p style="color:#8b949e;font-size:12px;margin-top:32px;">'
         "本邮件由 GitHub Actions 自动发送。</p></div>"
     )

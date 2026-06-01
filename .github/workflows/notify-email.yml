@@ -1,0 +1,44 @@
+name: Notify Email on Update
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - ".github/**"
+      - "README.md"
+      - "scripts/**"
+  workflow_dispatch:
+
+# 避免并发重复发送
+concurrency:
+  group: notify-email-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install markdown
+
+      - name: Send update email
+        env:
+          SENDER: ${{ secrets.SENDER }}
+          SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
+          RECEIVER: ${{ secrets.RECEIVER }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+          FORCE_LATEST: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+        run: python scripts/send_email.py

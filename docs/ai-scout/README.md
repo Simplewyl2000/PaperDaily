@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-06-02](daily/2026-06-02.md) — SaeRL、Zero-to-CAD、MUSE-Autoskill / SkillOps、JECS 与污染检测、Code as Agent Harness；附 OpenAI/Anthropic 近一月发布跟踪
 - [2026-06-01](daily/2026-06-01.md) — 首期：ProgramBench、Agentic Harness Engineering、Claude Opus 4.8 / Dynamic Workflows 等
 
 ## 说明

@@ -1,0 +1,25 @@
+name: Auto-merge Cursor PRs
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review, synchronize]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  automerge:
+    # 只自动合并 Cursor automation 开的 PR（分支名以 cursor/ 开头）
+    if: ${{ startsWith(github.head_ref, 'cursor/') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mark ready (if draft) and squash-merge into main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          # 草稿 PR 不能合并，先标记为 ready（已经 ready 时忽略报错）
+          gh pr ready "$PR" --repo "$REPO" || true
+          gh pr merge "$PR" --repo "$REPO" --squash --delete-branch

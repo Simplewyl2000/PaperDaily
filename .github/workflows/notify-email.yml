@@ -1,16 +1,10 @@
 name: Notify Email on Update
 
 on:
-  # Cursor automation 每天会开一个日报 PR，PR 一创建/更新就发邮件（无需合并）
+  # Cursor automation 每天会开一个日报 PR，PR 一创建就发邮件（随后会被自动合并）
+  # 只在 PR 创建/重开时发，避免 ready/synchronize/合并 等动作触发重复邮件
   pull_request:
-    types: [opened, reopened, synchronize, ready_for_review]
-    branches: [main]
-    paths-ignore:
-      - ".github/**"
-      - "README.md"
-      - "scripts/**"
-  # 如果将来内容直接进 main，也照样发
-  push:
+    types: [opened, reopened]
     branches: [main]
     paths-ignore:
       - ".github/**"

@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-06-03](daily/2026-06-03.md) — SWE-Playground / ASTRA / IFCodeEvolve（数据合成）、SpecBench / BenchJack / SWE-Cycle（评测反作弊）、Meta-Harness、OpenAI 自改进税务 agent；社区热点：HumanLayer harness 工程、Composer 2.5 文本反馈 RL、Awesome-Agent-Harness / HarnessLab
 - [2026-06-02](daily/2026-06-02.md) — SaeRL、Zero-to-CAD、MUSE-Autoskill / SkillOps、JECS 与污染检测、Code as Agent Harness；附 OpenAI/Anthropic 近一月发布跟踪
 - [2026-06-01](daily/2026-06-01.md) — 首期：ProgramBench、Agentic Harness Engineering、Claude Opus 4.8 / Dynamic Workflows 等
 

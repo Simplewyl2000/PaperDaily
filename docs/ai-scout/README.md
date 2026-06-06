@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-06-06](daily/2026-06-06.md) — SWE-Universe / Agent World Model（百万级·开源可验证环境合成）、CODESKILL（把技能库管理训成 RL 策略）、ANDES（数据合成即 agent skill）、Stage-Specific SFT-then-RL 数据集 / AReaL-SEA / open-trajectory-gym；官方源：OpenAI「意外给 CoT 打分」奖励完整性复盘；低优先级 Qwen3.7-Plus 多模态 agent 基座；社区热点：Karpathy 加入 Anthropic（可验证环境/自动研究）、SKILL.md 跨厂商标准 + skills.sh、Paperclip（agent 公司编排 OS ~69k★）、agent-computer-use（确定性 a11y computer use）
 - [2026-06-05](daily/2026-06-05.md) — Meta-Agent Challenge / RewardHackingAgents（评测反作弊）、Trading Human Curation / EvoEnv / SWE-Next / Scale-SWE（数据·环境合成与性价比）、SkillEvolver / EvoSkills（技能自动生成·反污染）、OmniCoding（沙箱 coding agent）、ProRL Agent（rollout-as-a-service）；官方源：OpenAI Dreaming（记忆合成）；社区热点：Kunvar Thaman「环境即一切」、Furu Wei/MSR「给模型一台电脑」、CLI-Anything / OpenHarness
 - [2026-06-04](daily/2026-06-04.md) — SWE-Hub / OpenSWE / LiteCoder-Terminal（数据·环境合成）、RHB / Hack-Verifiable Environments（评测反作弊）、ReSkill / SkillSmith（技能自动生成）、PostTrainBench；中优先级 AstraFlow / Libra / ADR / CoEvolve（RL 基础设施与数据）；官方源：Anthropic LLM ATT&CK Navigator、Coding agents in the social sciences；社区热点：NVIDIA Elements Harness 指南、MCP vs CLI、OpenCode / Claw Code / 小红书 Relax
 - [2026-06-03](daily/2026-06-03.md) — SWE-Playground / ASTRA / IFCodeEvolve（数据合成）、SpecBench / BenchJack / SWE-Cycle（评测反作弊）、Meta-Harness、OpenAI 自改进税务 agent；社区热点：HumanLayer harness 工程、Composer 2.5 文本反馈 RL、Awesome-Agent-Harness / HarnessLab

@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-06-10](daily/2026-06-10.md) — Anthropic Claude Fable 5 / Mythos 5、Adaptive Auto-Harness、ADK Arena、MCP-Persona、Agent libOS、SkillRevise、R3-Skill、Mastra Code Harness、Microsoft Agent Governance Toolkit；中优先级：InKH、LLM Consortium、SCORE、Google ADK；官方源：Anthropic Fable/Mythos 新发布，OpenAI 无新增可入表技术发布；社区热点：loop engineering、dynamic workflows、Google ADK、Agent Governance Toolkit、Uni-CLI、Command Center
 - [2026-06-09](daily/2026-06-09.md) — Socratic-SWE / Terminal-Lego / Terminal-World / TerminalWorld / Co-Coder、VirBench + gget virus、Terminal-Bench Science、Statewright；中优先级：MRAgent、Codebase-Memory MCP、DeepClaude；官方源：OpenAI Economic Research Exchange / benefit everyone plan、Anthropic agents in biology；社区热点：自动化 AI researcher、agent-friendly 生物数据、状态机 tool gating
 - [2026-06-08](daily/2026-06-08.md) — OpenAI Codex skill eval / structured code review、Harness-Bench / HarnessForge / SABER / BenchAgent / SWE Atlas / PawBench、Harness MCP v2；官方源：Anthropic「Making Claude a chemist」；社区热点：Agent = Model + Harness、MCP 动态工具注册、agentmemory、mcp2cli、Commandable MCP
 - [2026-06-06](daily/2026-06-06.md) — SWE-Universe / Agent World Model（百万级·开源可验证环境合成）、CODESKILL（把技能库管理训成 RL 策略）、ANDES（数据合成即 agent skill）、Stage-Specific SFT-then-RL 数据集 / AReaL-SEA / open-trajectory-gym；官方源：OpenAI「意外给 CoT 打分」奖励完整性复盘；低优先级 Qwen3.7-Plus 多模态 agent 基座；社区热点：Karpathy 加入 Anthropic（可验证环境/自动研究）、SKILL.md 跨厂商标准 + skills.sh、Paperclip（agent 公司编排 OS ~69k★）、agent-computer-use（确定性 a11y computer use）

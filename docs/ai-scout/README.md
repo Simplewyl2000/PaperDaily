@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-06-23](daily/2026-06-23.md) — Patch the Planet、Codex-maxxing、ClayBuddy、CoDA-Bench、DCIChecker、SafeMCP、PrologMCP；中优先级：Sandboxed Coding Agents / OmniCoding、ScholarQuest、Workflow-GYM、Codex-Workflows；低优先级：OpenAI Daybreak；官方源：OpenAI 06-22 三项新增、Anthropic 复核无新增；社区热点：Jason Liu durable loops、Trail of Bits patch-first security、Patch the Planet、AgentArmor、CoDA-Bench、Codex-Workflows
 - [2026-06-22](daily/2026-06-22.md) — PACMS、NRT-Bench、CircleCI MCP、Tree-like Self-Play、agentmemory、OpenClaw 2026.6.10-beta.1；中优先级：AtomMem、DeXposure-Claw、Contagion Networks、Uncertainty Decomposition；低优先级：OpenAI Samsung Codex 部署；官方源：OpenAI Samsung 新增、Anthropic 复核无新增；社区热点：CircleCI 验证闭环、Claude Code routines、agentmemory、OpenClaw、AgentBridge、PACMS context-engine
 - [2026-06-21](daily/2026-06-21.md) — Open-SWE-Traces、Reward Hackability Audit、JAMER、Data Intelligence Agents、SafeClawBench、CompSkillBench、GateMem、Decoupled Search Grounding、Predictive Validity、AutoPass；中优先级：MobileForge、ORAgentBench、ReproRepo；低优先级：OpenAI beneficial trait RL；官方源：OpenAI beneficial RL、Anthropic 复核无新增；社区热点：Steinberger loop engineering、Boris loops、GitHub MCP Server v1.4.0、Open-SWE-Traces、SafeClawBench、GateMem
 - [2026-06-20](daily/2026-06-20.md) — Probe-and-Refine、Phoenix、StaminaBench、Grite、ToolPrivBench、CodeSentinel、PhantomSkill、ToolPro、Claude Code Artifacts、MCP Enterprise-Managed Authorization；中优先级：PACT、VISUALSKILL、LLMZero、N-Version Programming；低优先级：OpenAI rare disease Deep Research；官方源：OpenAI 罕见病诊断、Claude Artifacts / MCP 企业授权；社区热点：Boris Artifacts、MCP EMA、Grite、trace-mcp、agentproto、Phantom

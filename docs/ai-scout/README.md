@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-06-26](daily/2026-06-26.md) — OpenAI Codex agentic work 使用研究、ToolBench-X、CLI-Universe、Tmax、EnterpriseClawBench、Agent-as-a-Router；中优先级：Qwen-AgentWorld、Claude Code 2.1.191、mcpbr、Agents All the Way Down；低优先级：GPT-5.5 Instant release notes；官方源：OpenAI 06-25 新增、Anthropic 复核无新增；社区热点：OpenAI delegated work、ClaudeCodeLog、Matt Pocock skills、Tmax、Qwen-AgentWorld、EnterpriseClawBench
 - [2026-06-25](daily/2026-06-25.md) — Terminal-agent 轨迹可教性 EGS/TOR、Agentjacking + agent-jackstop、CodeScaleBench、Ralph Loop 官方插件、SWE-bench-Live 6 月更新；中优先级：MCP Server Security Best Practices、Codex CLI 0.142.1、Codex CLI vs Claude Code；低优先级：OpenAI Jalapeño；官方源：OpenAI 06-24 Jalapeño / Codex 0.142.1、Anthropic 复核无新增；社区热点：Boris loops、Tenet Agentjacking、Sourcegraph 检索胜过模型、Ralph Loop、agent-jackstop、CodeScaleBench
 - [2026-06-24](daily/2026-06-24.md) — RigorBench、Claude Tag、FeatureBench、ContextEcho、OpenClaw-Skill、GameCraft-Bench、Codex SQLite feedback logs；中优先级：MCP vs CLI Benchmark、LARK、Agentic Software；低优先级：OpenAI GPT-5 免疫学案例；官方源：OpenAI 06-23 免疫学案例、Anthropic 06-23 Claude Tag；社区热点：MCP schema tax、Codex 日志写放大、FeatureBench、ContextEcho、Codex logging fixes
 - [2026-06-23](daily/2026-06-23.md) — Patch the Planet、Codex-maxxing、ClayBuddy、CoDA-Bench、DCIChecker、SafeMCP、PrologMCP；中优先级：Sandboxed Coding Agents / OmniCoding、ScholarQuest、Workflow-GYM、Codex-Workflows；低优先级：OpenAI Daybreak；官方源：OpenAI 06-22 三项新增、Anthropic 复核无新增；社区热点：Jason Liu durable loops、Trail of Bits patch-first security、Patch the Planet、AgentArmor、CoDA-Bench、Codex-Workflows

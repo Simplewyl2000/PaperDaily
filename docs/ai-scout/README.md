@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-07-01](daily/2026-07-01.md) — Claude Science、CodeEvo、TrajAudit、CodeTracer、MCPMark Verified、MCP-Universe/MCP+；中优先级：GeneBench-Pro、Anthropic Sandbox Runtime、Commandable MCP；低优先级：OpenAI core dump epidemiology；官方源：OpenAI 06-30 GeneBench-Pro / Core dump、Anthropic 06-30 Claude Science；社区热点：MCP wire-format 讨论、dynamic tool registration、sandbox-runtime、MCP-Universe、MCPMark
 - [2026-06-30](daily/2026-06-30.md) — Cloudflare vulnerability harness、SRFT 失败轨迹步骤级筛选、SWE-Future 未来任务合成、sandboxd、Canary、CodeSeek、Qwen open-computer-use、Ponytail；中优先级：ModSleuth、Omnigent、BuilderIO Skills、Dao Code；低优先级：OpenAI/HP Frontier；官方源：OpenAI 06-28 HP 新增、Anthropic 复核无未去重新增；社区热点：Cloudflare harness 观点、JetBrains SRFT、Ponytail、Omnigent、BuilderIO Skills
 - [2026-06-29](daily/2026-06-29.md) — Qwen3-Coder、Bittensor Agent Arenas trajectory primitive、GitHub Copilot agentic harness、NatureBench、Agentic PR review interaction、XMCP；中优先级：benchmark misalignment、Jules proactivity eval、AgentPerms、CircleCI MCP vs CLI；低优先级：Google DeepMind AI Control Roadmap；官方源：OpenAI/Anthropic 复核无未去重新增；社区热点：Karpathy 可验证工作、Simon CLI-first、OpenAI Symphony、XMCP、ORO trajectory corpus
 - [2026-06-28](daily/2026-06-28.md) — OpenAI GPT-5.6 Sol / System Card、AgentLens、FireFly、TDScaling、PROJECTMEM、Agent trajectories as programs、SurveilBench、mcp-cli；中优先级：mcptest、IETF MCP Security Considerations、Terminal-Bench 2.1、Firecrawl coding-agent 横评；低优先级：Anthropic Cadences；官方源：OpenAI 06-26 两项新增、Anthropic 06-26 Cadences；社区热点：GPT-5.6 runtime knobs、Anthropic Cadences、loop engineering、OpenCode、Terminal-Bench 2.1、MCP CLI 化

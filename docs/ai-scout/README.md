@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-07-03](daily/2026-07-03.md) — Claude Sonnet 5、SWE-INTERACT、SWE-MeM、AI-Infra-Guard、ContextBench、Qwen Code v0.19.5、Chrome DevTools MCP v1.4.0、SlopCodeBench；中优先级：LLM 漏洞判断认知偏差、Sento Dream Engine、vibe-kanban；低优先级：Anthropic Fable 5 jailbreak severity framework；官方源：OpenAI 复核无新增、Anthropic Sonnet 5/Fable 5 新增；社区热点：HN agent workflow、Karpathy/Willison benchmark loop、Qwen Code、Chrome DevTools MCP、agent-skills、vibe-kanban
 - [2026-07-01](daily/2026-07-01.md) — Claude Science、CodeEvo、TrajAudit、CodeTracer、MCPMark Verified、MCP-Universe/MCP+；中优先级：GeneBench-Pro、Anthropic Sandbox Runtime、Commandable MCP；低优先级：OpenAI core dump epidemiology；官方源：OpenAI 06-30 GeneBench-Pro / Core dump、Anthropic 06-30 Claude Science；社区热点：MCP wire-format 讨论、dynamic tool registration、sandbox-runtime、MCP-Universe、MCPMark
 - [2026-06-30](daily/2026-06-30.md) — Cloudflare vulnerability harness、SRFT 失败轨迹步骤级筛选、SWE-Future 未来任务合成、sandboxd、Canary、CodeSeek、Qwen open-computer-use、Ponytail；中优先级：ModSleuth、Omnigent、BuilderIO Skills、Dao Code；低优先级：OpenAI/HP Frontier；官方源：OpenAI 06-28 HP 新增、Anthropic 复核无未去重新增；社区热点：Cloudflare harness 观点、JetBrains SRFT、Ponytail、Omnigent、BuilderIO Skills
 - [2026-06-29](daily/2026-06-29.md) — Qwen3-Coder、Bittensor Agent Arenas trajectory primitive、GitHub Copilot agentic harness、NatureBench、Agentic PR review interaction、XMCP；中优先级：benchmark misalignment、Jules proactivity eval、AgentPerms、CircleCI MCP vs CLI；低优先级：Google DeepMind AI Control Roadmap；官方源：OpenAI/Anthropic 复核无未去重新增；社区热点：Karpathy 可验证工作、Simon CLI-first、OpenAI Symphony、XMCP、ORO trajectory corpus

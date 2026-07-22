@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-07-22](daily/2026-07-22.md) — OpenAI/Hugging Face 评测事故、Recursive Harness Self-Improvement、PeepholeBench、SGVEF-LOOP、agent-lsp、KCP Harness、Harness MCP Server；中优先级：QVal、harness-aware post-training、LLVM-Bench、Tokenomics；低优先级：OpenAI small business program；官方源：OpenAI 07-21 两项新增 / Anthropic 复核无未去重新增；社区热点：OpenAI/HF 事故协作、Boris loops、OpenCode、wshobson/agents、agent-lsp
 - [2026-07-21](daily/2026-07-21.md) — OpenAI 长程模型轨迹级安全、GitHub Copilot harness 评测、Copilot code review 工具说明与 firewall、Agentic Workflows 跨仓库 docs、Playwright MCP/CLI、AgentSmith；中优先级：offline RL harness controller、deterministic gates、DecompRL；低优先级：Anthropic rare disease grants；官方源：OpenAI 07-20 / Anthropic 07-20 新增；社区热点：轨迹监控、工具说明、Playwright MCP、harness-engineering、AgentSmith、bolt-slides
 - [2026-07-20](daily/2026-07-20.md) — Claude Code MCP Tool Search、code-review-graph、OfficeCLI、Faros harness engineering、Hallmark、Strix、OmniRoute、MetaHarness；中优先级：RLVP、MCP-Guard、Beyond Fluency；低优先级：无未去重新增；官方源：OpenAI/Anthropic 复核无未去重新增；社区热点：MCP Tool Search 元数据、harness engineering、code-review-graph、OfficeCLI、Hallmark、Strix
 - [2026-07-19](daily/2026-07-19.md) — Senior SWE-Bench、Reward-Free Evolving Agents、CAGE-1、OpenAI codex-plugin-cc、freeCodeCamp harness case；中优先级：academic-supervision harness、awesome-harness-engineering、best-of-Agent-Harnesses；低优先级：无未去重新增；官方源：OpenAI/Anthropic 复核无未去重新增；社区热点：Codex plugin 跨 agent 分工、MCP 用户权限继承、openai/codex-plugin-cc、revfactory/harness、awesome-harness-engineering

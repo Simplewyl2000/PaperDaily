@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-03](daily/2026-10-03.md) — Kimi K2.7 Code 1,700 道专家题单轮 RL 跨 6 基准迁移、AuraForge 合成安全测试训练 coding agent、AutoCompact 学习式上下文压缩、模型×harness 排名反转（66 组配置）、agent 排行榜方差分解、Incident-Arena / Argo-Bench / DAYJOB 新基准、OpenAI misaligned agent 第三方影响更新、Anthropic Frontier Academy
 - [2026-10-02](daily/2026-10-02.md) — Anthropic build-eval / hillclimb 评测工程方法论、Zero2Repo 与 E2E-SWE 从零建仓基准、AED 5 万条错误-诊断对、GraphForge / WorkGenesis 真实文件锚定的工作任务合成、CATCH coding RL 作弊实验台、DoGBench 文档基准、SCVD 终端 agent 自验证蒸馏、HiSentinel 执行前哨兵；社区：Hamel 评 Claude 自动 eval、Meta 元推理“经理”架构、jeff / jeeves 小型决策模型、agnix 配置 lint
 - [2026-10-01](daily/2026-10-01.md) — AgentBug-Smith 自动复现 harness bug 建活基准、SkillGym 爬 skill 合成可验证环境 + 19k 轨迹 SFT、工具基准可执行契约审计、ReviveBench 软件复活与 verifier 缺陷审计、LoLBench 长提案大系统开发、WitnessGym、UserProxyBench、CRJudgeBench、WEFT、XRepoSkill；OpenAI GPT-6.1 Sol 部署仿真 / Research acceleration / 蒸馏攻击披露，Anthropic FLT 形式化 / 机器人暴露指数；社区：DHH “pencils down”、企业 eval 即护城河、livenerf、CLM verifier、agent-console
 - [2026-09-30](daily/2026-09-30.md) — Unearned Passes benchmark 完整性运维、TraceDance 部署轨迹自动造 benchmark、Skill2Env 从 skill 合成环境、Graph2Env 依赖图构建仓库环境、RepoReuse 代码复用评测、WideSWE 跨仓库 benchmark、Codoku 可再生程序推理、Multi-SWT-Bench 8 语言复现测试、Replit 模型自主委派 harness、OpenAI DevDay Codex 云环境/Security Cloud；中优先级：GAGAR 质量感知优势重分配、Counterfactual Rollout Replay、CER 提前奖励预测、廉价 verifier 足够用、CAMG 文件记忆 RL、代码 SFT 数据分类配比；低优先级：OpenAI 前沿训练安全案例、GPT-6.1 Astra 暂停发布、Anthropic GLM-5.3 网络能力评估；官方源：OpenAI 09-28/29 新增、Anthropic 09-29 新增；社区热点：Simon Willison 纪律观点、Logan 内部 benchmark、effort 切换与 cache、jevgrep、magpie、Nimble/Kev

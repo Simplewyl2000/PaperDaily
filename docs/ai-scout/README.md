@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-04](daily/2026-10-04.md) — 微软 FrogNano-4B 纯 RL + TaskPilot 策略校准合成 1,500 个 SWE 环境、Invent-A-Dataset 零种子造后训练数据、合成数据需组级筛选信号、Agents Are Systems 54% 方差来自重复运行、企业 skill 过程级持续评测、WebArena-Lite 人工审计、KaliBench 免运行时可验证奖励、SecureVibe、STITCH harness 原语、Mingbird 小模型 harness；OpenAI GPT-6 家族选型指南；社区：AgentWorld 多 agent 反效果、universal-modder
 - [2026-10-03](daily/2026-10-03.md) — Kimi K2.7 Code 1,700 道专家题单轮 RL 跨 6 基准迁移、AuraForge 合成安全测试训练 coding agent、AutoCompact 学习式上下文压缩、模型×harness 排名反转（66 组配置）、agent 排行榜方差分解、Incident-Arena / Argo-Bench / DAYJOB 新基准、OpenAI misaligned agent 第三方影响更新、Anthropic Frontier Academy
 - [2026-10-02](daily/2026-10-02.md) — Anthropic build-eval / hillclimb 评测工程方法论、Zero2Repo 与 E2E-SWE 从零建仓基准、AED 5 万条错误-诊断对、GraphForge / WorkGenesis 真实文件锚定的工作任务合成、CATCH coding RL 作弊实验台、DoGBench 文档基准、SCVD 终端 agent 自验证蒸馏、HiSentinel 执行前哨兵；社区：Hamel 评 Claude 自动 eval、Meta 元推理“经理”架构、jeff / jeeves 小型决策模型、agnix 配置 lint
 - [2026-10-01](daily/2026-10-01.md) — AgentBug-Smith 自动复现 harness bug 建活基准、SkillGym 爬 skill 合成可验证环境 + 19k 轨迹 SFT、工具基准可执行契约审计、ReviveBench 软件复活与 verifier 缺陷审计、LoLBench 长提案大系统开发、WitnessGym、UserProxyBench、CRJudgeBench、WEFT、XRepoSkill；OpenAI GPT-6.1 Sol 部署仿真 / Research acceleration / 蒸馏攻击披露，Anthropic FLT 形式化 / 机器人暴露指数；社区：DHH “pencils down”、企业 eval 即护城河、livenerf、CLM verifier、agent-console

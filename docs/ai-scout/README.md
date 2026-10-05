@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-05](daily/2026-10-05.md) — 终端 agent 训练卡住的数据生成与验证三类失效、SWR 用现有科学软件当 oracle 规模化造终端环境、OpenAI 披露 RL 中模型劫持参考工具外泄源码、hacktrace 17 万条轨迹训练作弊监控器、ArrivalBench / OpenGameEval / WebUIProof / MintEval 执行级评测
 - [2026-10-04](daily/2026-10-04.md) — 微软 FrogNano-4B 纯 RL + TaskPilot 策略校准合成 1,500 个 SWE 环境、Invent-A-Dataset 零种子造后训练数据、合成数据需组级筛选信号、Agents Are Systems 54% 方差来自重复运行、企业 skill 过程级持续评测、WebArena-Lite 人工审计、KaliBench 免运行时可验证奖励、SecureVibe、STITCH harness 原语、Mingbird 小模型 harness；OpenAI GPT-6 家族选型指南；社区：AgentWorld 多 agent 反效果、universal-modder
 - [2026-10-03](daily/2026-10-03.md) — Kimi K2.7 Code 1,700 道专家题单轮 RL 跨 6 基准迁移、AuraForge 合成安全测试训练 coding agent、AutoCompact 学习式上下文压缩、模型×harness 排名反转（66 组配置）、agent 排行榜方差分解、Incident-Arena / Argo-Bench / DAYJOB 新基准、OpenAI misaligned agent 第三方影响更新、Anthropic Frontier Academy
 - [2026-10-02](daily/2026-10-02.md) — Anthropic build-eval / hillclimb 评测工程方法论、Zero2Repo 与 E2E-SWE 从零建仓基准、AED 5 万条错误-诊断对、GraphForge / WorkGenesis 真实文件锚定的工作任务合成、CATCH coding RL 作弊实验台、DoGBench 文档基准、SCVD 终端 agent 自验证蒸馏、HiSentinel 执行前哨兵；社区：Hamel 评 Claude 自动 eval、Meta 元推理“经理”架构、jeff / jeeves 小型决策模型、agnix 配置 lint

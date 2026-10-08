@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-08](daily/2026-10-08.md) — CheckerBench 用 CVE 漏洞/修复双版本评 agent 写静态分析 checker、Agent 评测信任层仅 22.6% 通过记录可信、HarnessSecurity-Bench 实测 6 大 harness 安全机制、ParanoiaEval 过度防御评测、Google FlowAgent pre-submit 修复落地漏斗、NeMo-DCR 万亿参数增量 refit；Claude Haiku 5.5、OpenAI metagaming latents；Theo 用 Opus 5.5 重写 ts-rust
 - [2026-10-07](daily/2026-10-07.md) — OpenAI LASER 边界主动采样快速造安全评测集、WorkForge 事实锚点派生 verifier 造 16.7K 工作环境、VERA 环境 / 模型 / harness 协同进化、SWE-CC 仓库规范合规基准（正确 patch 仍违规 43.1%）、RL 训练 verifier 修复率 31.9%→43.0%、"换 harness 主要改变成本"、HarnessTester、排行榜污染审计、ThunderSyncRL 零 staleness 加速；OpenAI × Ironclad 专业工作流 RL 环境、openai/math、Artifactory 跨样本通信报告，Anthropic CVP 三档准入与 Claude Code 云会话；社区：Cowork 云沙箱、Codex Auto-review 免费、gdp-ts、Agent Memory Repo、leviathan
 - [2026-10-06](daily/2026-10-06.md) — Reflection Beam 公开 100 万 RL 环境筛选与 11 万并发 rollout 工程细节、RSR 多 harness 解题改写成通用 harness 轨迹、DeskForge 可控桌面环境造 1.2M 密集标注、Pinning Decisions / GTDD / Fixture Coverage 三篇 verifier 与测试生成审计、OpenAI 披露 compaction 摘要注入与 DNS 外逃事故
 - [2026-10-05](daily/2026-10-05.md) — 终端 agent 训练卡住的数据生成与验证三类失效、SWR 用现有科学软件当 oracle 规模化造终端环境、OpenAI 披露 RL 中模型劫持参考工具外泄源码、hacktrace 17 万条轨迹训练作弊监控器、ArrivalBench / OpenGameEval / WebUIProof / MintEval 执行级评测

@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-10](daily/2026-10-10.md) — Anthropic 公开评测中四类非预期越权行为并全面断网评测、TestJack 按 trial 生成审计测试（34.4% "通过"实为违规）、TestPrism 多实现评测试质量（28% vs 59.7%）、SWE-Journey 用户画像模拟长程多轮评测、HarnessSQL harness 内造数据 SFT→RL（8B 15.5%→45.2%）、SAP 无 schema 企业数据合成、CABRA、skill 冲突实证、TRACE verifier 脆性诊断、LLM 回归测试锁定 bug；社区：ttok 1.0、iPhone-use、ai-newtab
 - [2026-10-09](daily/2026-10-09.md) — CoTrace 按 harness 来源匹配训练轨迹、base 模型决定性步骤筛查预测 agentic 后训练效果、Arena 用 9 万真实会话做对齐指数（代码调试虚报完成 48%）、SWE-TaskFlow 用真实 IDE 会话校准基准、SpecGuard 用 Lean 证明任务-测试冲突、Anthropic OSS Scanner、DHH 跨模型对抗评审
 - [2026-10-08](daily/2026-10-08.md) — CheckerBench 用 CVE 漏洞/修复双版本评 agent 写静态分析 checker、Agent 评测信任层仅 22.6% 通过记录可信、HarnessSecurity-Bench 实测 6 大 harness 安全机制、ParanoiaEval 过度防御评测、Google FlowAgent pre-submit 修复落地漏斗、NeMo-DCR 万亿参数增量 refit；Claude Haiku 5.5、OpenAI metagaming latents；Theo 用 Opus 5.5 重写 ts-rust
 - [2026-10-07](daily/2026-10-07.md) — OpenAI LASER 边界主动采样快速造安全评测集、WorkForge 事实锚点派生 verifier 造 16.7K 工作环境、VERA 环境 / 模型 / harness 协同进化、SWE-CC 仓库规范合规基准（正确 patch 仍违规 43.1%）、RL 训练 verifier 修复率 31.9%→43.0%、"换 harness 主要改变成本"、HarnessTester、排行榜污染审计、ThunderSyncRL 零 staleness 加速；OpenAI × Ironclad 专业工作流 RL 环境、openai/math、Artifactory 跨样本通信报告，Anthropic CVP 三档准入与 Claude Code 云会话；社区：Cowork 云沙箱、Codex Auto-review 免费、gdp-ts、Agent Memory Repo、leviathan

@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-12](daily/2026-10-12.md) — IEC-Bench 逐跳测出 harness 静默改写工具调用（Claude Code Bash 改写 12%、95% 失败被误归因给模型）、OpenAI 新报告 RL grader 缺输入后伪造并破坏环境、TestGRAD 演化测试集选补丁（SWE-bench Verified 84.2%）、agent 失败预测 AUROC 主要来自任务难度、UndoBench 完成率 83.5% vs 恢复率 46.7%；社区：Nadella "模型即内部风险"长文、REA 逆向 agent 单日 2.5 万星
 - [2026-10-11](daily/2026-10-11.md) — PolyCodeEval 函数→仓库多语言统一执行基准（仓库级仅 31%）、RucTangle 把 agent 大 patch 拆成可运行 commit（下游修 bug +5.2%）、工具"悄悄返回错值"仅 58.8% 被察觉、SSCBench 故障注入证据有效性、219 万次 skill 复制供应链、AgentTime 运行时长控制、no-code 修复执行验证（换执行器差 38.8%）、SpecGen 整体评测、WorldBench 运行时巡检 judge；Microsoft-Decision-1；社区：国务院签证表单后续、定时 agent 书签审计、ai-jail、helix-foundry、Humanize
 - [2026-10-10](daily/2026-10-10.md) — Anthropic 公开评测中四类非预期越权行为并全面断网评测、TestJack 按 trial 生成审计测试（34.4% "通过"实为违规）、TestPrism 多实现评测试质量（28% vs 59.7%）、SWE-Journey 用户画像模拟长程多轮评测、HarnessSQL harness 内造数据 SFT→RL（8B 15.5%→45.2%）、SAP 无 schema 企业数据合成、CABRA、skill 冲突实证、TRACE verifier 脆性诊断、LLM 回归测试锁定 bug；社区：ttok 1.0、iPhone-use、ai-newtab
 - [2026-10-09](daily/2026-10-09.md) — CoTrace 按 harness 来源匹配训练轨迹、base 模型决定性步骤筛查预测 agentic 后训练效果、Arena 用 9 万真实会话做对齐指数（代码调试虚报完成 48%）、SWE-TaskFlow 用真实 IDE 会话校准基准、SpecGuard 用 Lean 证明任务-测试冲突、Anthropic OSS Scanner、DHH 跨模型对抗评审

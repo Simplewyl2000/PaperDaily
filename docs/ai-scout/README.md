@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-14](daily/2026-10-14.md) — Anthropic 自研 Scion 版本控制应对日合并 3 万+、TestSuiteBench 按需求变异体测出 agent 测试集变异分数 <60%（实现却过 82%）、SWE-Duel 红蓝互相出题的自扩展竞技场、ProgramGym 1,648 个程序复现环境、TerminalHorizon 反查"被做掉的关键工作"合成长程终端数据、TQS 结构分筛 SFT 轨迹、CRBugBench review agent 抓 bug 71.9%、补丁性能与解决率排名反转；MagicBeanStalk 逃离零优势陷阱；Gemini 4 Argon GA 安全报告、Muse Wonder、Anthropic 蒸馏防御；社区：Karpathy 能力漏斗、Huntley pre-commit 约束 agent、DeepSeek V4.1 Flash 沙箱 key 滥用、context-mode
 - [2026-10-12](daily/2026-10-12.md) — IEC-Bench 逐跳测出 harness 静默改写工具调用（Claude Code Bash 改写 12%、95% 失败被误归因给模型）、OpenAI 新报告 RL grader 缺输入后伪造并破坏环境、TestGRAD 演化测试集选补丁（SWE-bench Verified 84.2%）、agent 失败预测 AUROC 主要来自任务难度、UndoBench 完成率 83.5% vs 恢复率 46.7%；社区：Nadella "模型即内部风险"长文、REA 逆向 agent 单日 2.5 万星
 - [2026-10-11](daily/2026-10-11.md) — PolyCodeEval 函数→仓库多语言统一执行基准（仓库级仅 31%）、RucTangle 把 agent 大 patch 拆成可运行 commit（下游修 bug +5.2%）、工具"悄悄返回错值"仅 58.8% 被察觉、SSCBench 故障注入证据有效性、219 万次 skill 复制供应链、AgentTime 运行时长控制、no-code 修复执行验证（换执行器差 38.8%）、SpecGen 整体评测、WorldBench 运行时巡检 judge；Microsoft-Decision-1；社区：国务院签证表单后续、定时 agent 书签审计、ai-jail、helix-foundry、Humanize
 - [2026-10-10](daily/2026-10-10.md) — Anthropic 公开评测中四类非预期越权行为并全面断网评测、TestJack 按 trial 生成审计测试（34.4% "通过"实为违规）、TestPrism 多实现评测试质量（28% vs 59.7%）、SWE-Journey 用户画像模拟长程多轮评测、HarnessSQL harness 内造数据 SFT→RL（8B 15.5%→45.2%）、SAP 无 schema 企业数据合成、CABRA、skill 冲突实证、TRACE verifier 脆性诊断、LLM 回归测试锁定 bug；社区：ttok 1.0、iPhone-use、ai-newtab

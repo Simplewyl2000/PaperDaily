@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-16](daily/2026-10-16.md) — SWE-Stream 流式造出 8 万可执行 SWE 任务（30B-A3B 微调 Verified 69.0%）、Doc2Harness 首个"让模型写 coding agent harness"确定性基准（最佳 53%）、BenchChecker 测出 SWE-bench 污染使解决率虚高 20%+、Anthropic 嵌入 METR 评测 + RL 训练对齐审计员
 - [2026-10-15](daily/2026-10-15.md) — MSR AutoEnvScaling 让终端 agent 自己造 RL 环境（有效率 ×25、自我双角色 TB2.1 +12.2）、OpenAI 用 GPT-6 两周合并 1,400+ 清理 PR 删 80 万行、SWEPatchTest 测试"区分补丁"联合通过率仅 9.21%、CodeWalk 零 LLM 组合造题、LHTB 2.0、SWEeper-Bench；社区：Amp "agent 直接 push 到 main"、Anthropic code-modernization 验证优先迁移、iFixAi 单日 +2.1k 星
 - [2026-10-14](daily/2026-10-14.md) — Anthropic 自研 Scion 版本控制应对日合并 3 万+、TestSuiteBench 按需求变异体测出 agent 测试集变异分数 <60%（实现却过 82%）、SWE-Duel 红蓝互相出题的自扩展竞技场、ProgramGym 1,648 个程序复现环境、TerminalHorizon 反查"被做掉的关键工作"合成长程终端数据、TQS 结构分筛 SFT 轨迹、CRBugBench review agent 抓 bug 71.9%、补丁性能与解决率排名反转；MagicBeanStalk 逃离零优势陷阱；Gemini 4 Argon GA 安全报告、Muse Wonder、Anthropic 蒸馏防御；社区：Karpathy 能力漏斗、Huntley pre-commit 约束 agent、DeepSeek V4.1 Flash 沙箱 key 滥用、context-mode
 - [2026-10-12](daily/2026-10-12.md) — IEC-Bench 逐跳测出 harness 静默改写工具调用（Claude Code Bash 改写 12%、95% 失败被误归因给模型）、OpenAI 新报告 RL grader 缺输入后伪造并破坏环境、TestGRAD 演化测试集选补丁（SWE-bench Verified 84.2%）、agent 失败预测 AUROC 主要来自任务难度、UndoBench 完成率 83.5% vs 恢复率 46.7%；社区：Nadella "模型即内部风险"长文、REA 逆向 agent 单日 2.5 万星

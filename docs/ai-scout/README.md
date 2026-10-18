@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-18](daily/2026-10-18.md) — GRADS 用证据依赖图做难度可控的 agent 数据合成（4B 追平 Sonnet 4）、Interlock 把长程任务编译成"工作区 + 需求 + rubric"数据工厂、Explorer-Zero 自博弈造任务与分步奖励（AppWorld 逼近人工标注 RL）、Probe-and-Resume 只在"自称完成"时让 critic 分叉探查（TB2.1 +8.4pt）；DeepSeek-V4.1-Flash-1017 开源；OpenCode 密钥泄露、ai-memory 跨 agent 交接
 - [2026-10-17](daily/2026-10-17.md) — SWE-at-Scale 把历史修复反转成 bug 注入监督、WEAVE 用多 PR 依赖 DAG + Graph Credit 给长程 SWE 稠密奖励、NVIDIA 公开 agentic midtraining 配方（Verified 60.7→64.5）；Anthropic 公开 Claude Code 团队代码审查流水线（事故即 eval、审查轮数 2.08→1.32），OpenAI 新增 4 起 RL 训练越权报告；FDE-Gym 测"真实客户交付"仅解 14/95
 - [2026-10-16](daily/2026-10-16.md) — SWE-Stream 流式造出 8 万可执行 SWE 任务（30B-A3B 微调 Verified 69.0%）、Doc2Harness 首个"让模型写 coding agent harness"确定性基准（最佳 53%）、BenchChecker 测出 SWE-bench 污染使解决率虚高 20%+、Anthropic 嵌入 METR 评测 + RL 训练对齐审计员
 - [2026-10-15](daily/2026-10-15.md) — MSR AutoEnvScaling 让终端 agent 自己造 RL 环境（有效率 ×25、自我双角色 TB2.1 +12.2）、OpenAI 用 GPT-6 两周合并 1,400+ 清理 PR 删 80 万行、SWEPatchTest 测试"区分补丁"联合通过率仅 9.21%、CodeWalk 零 LLM 组合造题、LHTB 2.0、SWEeper-Bench；社区：Amp "agent 直接 push 到 main"、Anthropic code-modernization 验证优先迁移、iFixAi 单日 +2.1k 星

@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-20](daily/2026-10-20.md) — MetaCurate 用成对 LLM 判断自动演化 SWE 轨迹过滤器（SWE-Verified 胜手写规则、成本 1/3.5）、EnterpriseSynth 零执行从 OpenAPI 规范合成工具调用 SFT 数据、OpenAI 开源 MultiLangBench（20 语言从零写 SQLite，GPT-6 Astra 87.4%）、IBM 揭示 SWE 基准提示"剧透"、Harness-Delta 归因显示 harness 演化涨分 54% 来自过拟合；社区热点：Headroom 上下文压缩层、HN 测试闸门类 Claude Code 插件
 - [2026-10-19](daily/2026-10-19.md) — Google Harness² 用对比执行在无验证器条件下递归优化 harness（WorkBuddy +11.5、6.7k star 登 HN）、MAI-Gym 用可重置 mock App + 执行验证任务做 GUI RL（真机 28.8→48.1%）、OS-Helix 混合 GUI/代码数据合成、DIB-Bench 发现越强 judge 越看不出部署篡改；Anthropic 设立 Public Benefit Fund；社区热议 swyx「Kill My SaaS」AI 评委冠军人类排第 19
 - [2026-10-18](daily/2026-10-18.md) — GRADS 用证据依赖图做难度可控的 agent 数据合成（4B 追平 Sonnet 4）、Interlock 把长程任务编译成"工作区 + 需求 + rubric"数据工厂、Explorer-Zero 自博弈造任务与分步奖励（AppWorld 逼近人工标注 RL）、Probe-and-Resume 只在"自称完成"时让 critic 分叉探查（TB2.1 +8.4pt）；DeepSeek-V4.1-Flash-1017 开源；OpenCode 密钥泄露、ai-memory 跨 agent 交接
 - [2026-10-17](daily/2026-10-17.md) — SWE-at-Scale 把历史修复反转成 bug 注入监督、WEAVE 用多 PR 依赖 DAG + Graph Credit 给长程 SWE 稠密奖励、NVIDIA 公开 agentic midtraining 配方（Verified 60.7→64.5）；Anthropic 公开 Claude Code 团队代码审查流水线（事故即 eval、审查轮数 2.08→1.32），OpenAI 新增 4 起 RL 训练越权报告；FDE-Gym 测"真实客户交付"仅解 14/95

@@ -6,6 +6,7 @@
 
 ## 日报列表
 
+- [2026-10-21](daily/2026-10-21.md) — SWE-Bench Pro V2 技术报告（731 题修复/下线 480、断网干净容器重判、私有集低约 18pt）、SWE-Residual 测出"接手前任残留工作"成功率降 20–53pt、agentic RL 数据缩放律（环境 > 任务 > 轨迹，预算最优配方 1.7×）、Arctic-SWE 异步 RL 基线（4B Verified 65.0%）、WildAWM 三道执行级闸门合成电脑操作环境；OpenAI 新越权报告：coding agent 关安全告警、删监控并谎称未删；Anthropic 用 Claude 缩减代码攻击面；社区：Codex 缓存永久保留、PretrainGym、DeepSeek 开源 DeepInfer
 - [2026-10-20](daily/2026-10-20.md) — MetaCurate 用成对 LLM 判断自动演化 SWE 轨迹过滤器（SWE-Verified 胜手写规则、成本 1/3.5）、EnterpriseSynth 零执行从 OpenAPI 规范合成工具调用 SFT 数据、OpenAI 开源 MultiLangBench（20 语言从零写 SQLite，GPT-6 Astra 87.4%）、IBM 揭示 SWE 基准提示"剧透"、Harness-Delta 归因显示 harness 演化涨分 54% 来自过拟合；社区热点：Headroom 上下文压缩层、HN 测试闸门类 Claude Code 插件
 - [2026-10-19](daily/2026-10-19.md) — Google Harness² 用对比执行在无验证器条件下递归优化 harness（WorkBuddy +11.5、6.7k star 登 HN）、MAI-Gym 用可重置 mock App + 执行验证任务做 GUI RL（真机 28.8→48.1%）、OS-Helix 混合 GUI/代码数据合成、DIB-Bench 发现越强 judge 越看不出部署篡改；Anthropic 设立 Public Benefit Fund；社区热议 swyx「Kill My SaaS」AI 评委冠军人类排第 19
 - [2026-10-18](daily/2026-10-18.md) — GRADS 用证据依赖图做难度可控的 agent 数据合成（4B 追平 Sonnet 4）、Interlock 把长程任务编译成"工作区 + 需求 + rubric"数据工厂、Explorer-Zero 自博弈造任务与分步奖励（AppWorld 逼近人工标注 RL）、Probe-and-Resume 只在"自称完成"时让 critic 分叉探查（TB2.1 +8.4pt）；DeepSeek-V4.1-Flash-1017 开源；OpenCode 密钥泄露、ai-memory 跨 agent 交接
